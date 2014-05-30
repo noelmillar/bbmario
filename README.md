@@ -1,4 +1,4 @@
-<h3>Backbone-Marionette / Require / Node Setup</h3>
+<h3> Automated Setup of Backbone-Marionette & Require via Node </h3>
 
 This is a quick script I threw together to automate the initial setup of backbone marionette using Node.<br/>
 
