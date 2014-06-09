@@ -6,9 +6,7 @@ var structure = ['collections', 'controllers', 'models', 'modules', 'templates',
 fs.mkdir('app', 0777, function(){ console.log('App folder created'); });
 for(i=0;i<structure.length;i++) {
 	var folder = structure[i];
-	fs.mkdir('app/'+folder, 0777, function(){
-		fs.exists('app/'+folder, function(exists){ console.log('Folder created'); });
-	});
+	fs.mkdir('app/'+folder, 0777);
 }
 
 // Require Config
